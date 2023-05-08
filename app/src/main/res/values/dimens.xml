@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--input Text-->
+        <!-- loading-->
+    <dimen name="title1">80sp</dimen>
+    <dimen name="title2">40sp</dimen>
+    <dimen name="title3">30sp</dimen>
+
+        <!-- main-->
+    <dimen name="title4">60sp</dimen>-->
+    <dimen name="title4_1">30sp</dimen>
+    <dimen name="title4_2">25sp</dimen>
+    <dimen name="title5">280sp</dimen>
+
+        <!-- home-->
+    <dimen name="title6">90sp</dimen>
+    <dimen name="title7">20sp</dimen>
+    <dimen name="title8">35sp</dimen>
+
+        <!-- major_items-->
+    <dimen name="title9">280sp</dimen>
+    <dimen name="title10">40sp</dimen>
+</resources>

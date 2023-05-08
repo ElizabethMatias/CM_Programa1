@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Programa 1 Cómputo Móvil</string>
+
+    <!-- input Text -->
+    <!-- loading-->
+    <string name="title_intro">Ejercicio 1</string>
+    <string name="author_name" translatable="false">Cruz Matias Yuridia Elizabeth</string>
+    <string name="version_string">Versión 1.0.0</string>
+
+    <!-- main-->
+    <string name="label">Ingresa los datos</string>
+    <string name="nameInput">Nombre(s)</string>
+    <string name="lastNameInput">Apellido(s)</string>
+    <string name="dateInput">Fecha de nacimiento</string>
+    <string name="emailInput">Correo</string>
+    <string name="noCuentaInput">Número de Cuenta</string>
+    <string name="careersSelect">Carrera</string>
+
+    <string name="emptyNameInput">Introduzca su(s) nombre(s)</string>
+    <string name="emptyLastNameInput">Introduzca su(s) Apellido(s)</string>
+    <string name="emptyDateInput">Seleccione una fecha</string>
+    <string name="emptyEmailInput">Introduzca un correo electronico</string>
+    <string name="emptyNoCuentaInput">Introduzca su numero de cuenta</string>
+
+    <string name="toastNameInput">Debe ingresar el nombre</string>
+    <string name="toastLastNameInput">Debe ingresar los apellidos</string>
+    <string name="toastDateInput">Debe ingresar la fecha de nacimiento</string>
+    <string name="toastEmailInput">Debe ingresar un correo</string>
+    <string name="toastEmailInvalid">El correo ingresado no es válido</string>
+    <string name="toastNoCuentaInvalid1">Debe ingresar un número de cuenta</string>
+    <string name="toasttNoCuentaInvalid2">El número de cuenta debe ser de 9 dígitos</string>
+    <string name="toastCareerInvalid">Seleccione una carrera</string>
+
+    <string-array name="careersSelectSpinner">
+        <item>Carrera</item>
+        <item>Ingeniería Aeroespacial</item>
+        <item>Ingeniería Ambiental</item>
+        <item>Ingeniería Civil</item>
+        <item>Ingeniería de Minas y Metalurgia</item>
+        <item>Ingeniería Eléctrica Electrónica</item>
+        <item>Ingeniería en Computación</item>
+        <item>Ingeniería en Sistemas Biomédicos</item>
+        <item>Ingeniería en Telecomunicaciones</item>
+        <item>Ingeniería Geofísica</item>
+        <item>Ingeniería Geológica</item>
+        <item>Ingeniería Geomática</item>
+        <item>Ingeniería Industrial</item>
+        <item>Ingeniería Mecánica</item>
+        <item>Ingeniería Mecatrónica</item>
+        <item>Ingeniería Petrolera</item>
+    </string-array>
+
+    <!-- home-->
+    <string name="welcome">Bienvenido</string>
+    <string name="tvNameUser">Nombre Completo</string>
+    <string name="tvAgeUser">Edad</string>
+    <string name="tvZodiacalUser">Signo Zodiacal</string>
+    <string name="tvChineseUser">Signo Zodiacal Chino</string>
+    <string name="tvEmailUser">Correo</string>
+    <string name="tvNoCuentaUser">Número de Cuenta</string>
+    <string name="tvAgeCalUser">%d años de edad</string>
+
+    <!-- button -->
+    <!-- loading-->
+    <string name="button_intro">Entrar</string>
+    <!-- main-->
+    <string name="btnButton">Enviar</string>
+
+
+    <!-- home-->
+    <!-- SIGNOS ZODIACALES -->
+    <string name="aries">Aries</string>
+    <string name="tauro">Tauro</string>
+    <string name="geminis">Géminis</string>
+    <string name="cancer">Cáncer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="escorpio">Escorpio</string>
+    <string name="sagitario">Sagitario</string>
+    <string name="capricornio">Capricornio</string>
+    <string name="acuario">Acuario</string>
+    <string name="piscis">Piscis</string>
+
+    <!-- SIGNOS CHINOS -->
+    <string name="rata">Rata</string>
+    <string name="buey">Buey</string>
+    <string name="tigre">Tigre</string>
+    <string name="conejo">Conejo</string>
+    <string name="dragon">Dragón</string>
+    <string name="serpiente">Serpiente</string>
+    <string name="caballo">Caballo</string>
+    <string name="cabra">Cabra</string>
+    <string name="mono">Mono</string>
+    <string name="gallo">Gallo</string>
+    <string name="perro">Perro</string>
+    <string name="cerdo">Cerdo</string>
+    <string name="nulo">Desconocido</string>
+
+
+</resources>

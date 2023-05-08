@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobile Computing Program 1</string>
+    <string name="title_intro">" Exercise 1"</string>
+    <string name="version_string">Version 1.0.0</string>
+    <string name="label">Enter the data</string>
+    <string name="nameInput">Name(s)</string>
+    <string name="lastNameInput">Last name(s)</string>
+    <string name="dateInput">Date of birth</string>
+    <string name="emailInput">Email</string>
+    <string name="noCuentaInput">Account Number</string>
+    <string name="careersSelect">Major</string>
+    <string name="emptyNameInput">Enter your name(s)</string>
+    <string name="emptyLastNameInput">Enter your last name(s)</string>
+    <string name="emptyDateInput">Select a date</string>
+    <string name="emptyEmailInput">Enter an email address</string>
+    <string name="emptyNoCuentaInput">Enter your account number</string>
+    <string name="toastNameInput">You must enter the name.</string>
+    <string name="toastLastNameInput">You must enter the last name(s).</string>
+    <string name="toastDateInput">You must enter the date of birth</string>
+    <string name="toastEmailInput">You must enter an email</string>
+    <string name="toastEmailInvalid">The entered email is not valid</string>
+    <string name="toastNoCuentaInvalid1">You must enter an account number</string>
+    <string name="toasttNoCuentaInvalid2">The account number must be 9 digits</string>
+    <string name="toastCareerInvalid">" Select a major"</string>
+    <string name="welcome">Welcom</string>
+    <string name="tvNameUser">Full Name</string>
+    <string name="tvAgeUser">Age</string>
+    <string name="tvZodiacalUser">Zodiac Sign</string>
+    <string name="tvChineseUser">Chinese Zodiac Sign</string>
+    <string name="tvEmailUser">Email</string>
+    <string name="tvNoCuentaUser">Account number</string>
+    <string name="tvAgeCalUser">%d years of age</string>
+    <string name="button_intro">Enter</string>
+    <string name="btnButton">Submit</string>
+    <string name="aries">Aries</string>
+    <string name="tauro">Taurus</string>
+    <string name="geminis">Gemini</string>
+    <string name="cancer">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="escorpio">Scorpio</string>
+    <string name="sagitario">Sagittarius</string>
+    <string name="capricornio">Capricorn</string>
+    <string name="acuario">Aquarius</string>
+    <string name="piscis">Pisces</string>
+    <string name="rata">Rat</string>
+    <string name="buey">Ox</string>
+    <string name="tigre">Tiger</string>
+    <string name="conejo">Rabbit</string>
+    <string name="dragon">Dragon</string>
+    <string name="serpiente">Snake</string>
+    <string name="caballo">Horse</string>
+    <string name="cabra">Sheep</string>
+    <string name="mono">Monkey</string>
+    <string name="gallo">Rooster</string>
+    <string name="perro">Dog</string>
+    <string name="cerdo">Pig</string>
+    <string name="nulo">Unknown</string>
+
+
+    <string-array name="careersSelectSpinner">
+        <item>Major</item>
+        <item>Aerospace Engineering</item>
+        <item>Environmental Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Mining and Metallurgical Engineering</item>
+        <item>Electrical and Electronic Engineering</item>
+        <item>Computer Engineering</item>
+        <item>Biomedical Systems Engineering</item>
+        <item>Telecommunications Engineering</item>
+        <item>Geophysical Engineering</item>
+        <item>Geological Engineering</item>
+        <item>Geomatics Engineering</item>
+        <item>Industrial Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Mechatronics Engineering</item>
+        <item>Petroleum Engineering</item>
+    </string-array>
+
+</resources>
