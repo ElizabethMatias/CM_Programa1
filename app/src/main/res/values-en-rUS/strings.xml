@@ -23,7 +23,7 @@
     <string name="toastNoCuentaInvalid1">You must enter an account number</string>
     <string name="toasttNoCuentaInvalid2">The account number must be 9 digits</string>
     <string name="toastCareerInvalid">" Select a major"</string>
-    <string name="welcome">Welcom</string>
+    <string name="welcome">Welcome</string>
     <string name="tvNameUser">Full Name</string>
     <string name="tvAgeUser">Age</string>
     <string name="tvZodiacalUser">Zodiac Sign</string>

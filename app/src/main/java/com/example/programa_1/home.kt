@@ -1,5 +1,6 @@
 package com.example.programa_1
 
+import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -14,6 +15,7 @@ import java.util.*
 class home : AppCompatActivity() {
 
     private lateinit var binding: ActivityHomeBinding
+    private lateinit var mediaPlayer: MediaPlayer
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -185,7 +187,28 @@ class home : AppCompatActivity() {
                 "drawable", iv.context.packageName)
             binding.imageView.setImageResource(resourceId)
         }
+    }
 
+    override fun onStop() {
+        super.onStop()
+        mediaPlayer.stop()
+    }
 
+    override fun onResume() {
+        super.onResume()
+
+        // Si el objeto MediaPlayer no es nulo, reiniciarlo
+        if (mediaPlayer != null) {
+            mediaPlayer!!.seekTo(0)
+            mediaPlayer!!.start()
+        }
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        mediaPlayer = MediaPlayer.create(this, R.raw.music2)
+        mediaPlayer.isLooping = true
+        mediaPlayer.start()
     }
 }

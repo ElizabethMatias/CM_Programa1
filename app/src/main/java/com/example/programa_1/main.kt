@@ -1,8 +1,13 @@
 package com.example.programa_1
 
+import android.content.ComponentName
+import android.content.Context
 import android.content.Intent
+import android.content.ServiceConnection
+import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.IBinder
 import android.text.InputFilter
 import android.util.Log
 import android.widget.AdapterView
@@ -24,6 +29,7 @@ class main : AppCompatActivity(), AdapterView.OnItemSelectedListener {
     private lateinit var noCuentaUser: String
     private lateinit var careerOptions: ArrayAdapter<String>
     private lateinit var careerSelected:String
+    private lateinit var mediaPlayer: MediaPlayer
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,6 +37,9 @@ class main : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        //Musica
+
 
         //Resticcion a 9 digtos del Numero de cuenta
         binding.etNoCuenta.filters= arrayOf<InputFilter>(InputFilter.LengthFilter(9))
@@ -199,10 +208,38 @@ class main : AppCompatActivity(), AdapterView.OnItemSelectedListener {
             else -> bundle.putString("major", careerUser)
         }
 
-
         if (verifyData) {
             intent.putExtras(bundle)
             startActivity(intent)
         }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        // Detener y liberar el MediaPlayer al cerrar la actividad
+        mediaPlayer.release()
+    }
+
+    override fun onStop() {
+        super.onStop()
+        mediaPlayer.stop()
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        // Si el objeto MediaPlayer no es nulo, reiniciarlo
+        if (mediaPlayer != null) {
+            mediaPlayer!!.seekTo(0)
+            mediaPlayer!!.start()
+        }
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        mediaPlayer = MediaPlayer.create(this, R.raw.musica1)
+        mediaPlayer.isLooping = true
+        mediaPlayer.start()
     }
 }

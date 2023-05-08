@@ -7,11 +7,9 @@ import android.os.Bundle
 import kotlin.concurrent.thread
 import com.example.programa_1.databinding.ActivityLoadingBinding
 
-
 class loading : AppCompatActivity() {
 
     private lateinit var binding:ActivityLoadingBinding
-
     private lateinit var mediaPlayer: MediaPlayer
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,5 +33,4 @@ class loading : AppCompatActivity() {
         // Detener y liberar el MediaPlayer al cerrar la actividad
         mediaPlayer.release()
     }
-
 }
